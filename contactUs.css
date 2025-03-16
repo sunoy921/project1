@@ -1,0 +1,432 @@
+body {
+  font-family: 'Poppins'; 
+   background-color:#0f0f0f;
+   margin: 0px auto;
+   padding: 0px auto;
+   color: white;
+   font-family: 'Poppins', 'serif';
+   text-align: center;
+   color: white;
+   /* display: flex;
+   flex-direction: column;
+   justify-content:center ; */
+}
+
+
+.ImportantContainer{
+  display: flex; 
+}
+
+.form1{
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.conatiner{
+  width: 50%;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+
+
+}
+
+.Icon
+.conatiner form h1{
+
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+
+
+}
+
+
+
+.conatiner form input{
+  width: 290px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: white;
+}
+
+
+
+.textarea{
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+  align-items: center;
+  min-width: 400px;
+  min-height: 90px;
+  max-width: 400px;
+  max-height: 90px;
+  color: white;
+
+
+
+}
+
+textarea::-webkit-scrollbar{
+  width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+  background-color: rgba(194,194,194,0.713);
+}
+
+.button{
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px auto;
+  color: #333;
+  width: 100px;
+  margin-right: 306;
+  margin-bottom: 30px;
+
+  font-weight: 300;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color:white;
+    padding: 5px auto;
+    border-radius:30px ;
+    margin-right:  70px;
+    color: black;
+    size: 8px;
+    cursor:pointer;
+  height: 20px auto;
+  word-spacing: 5em;
+  transition: .3s;
+}
+
+.button:hover{
+background-color: black;
+border: none;
+border-radius: 5px;
+font-weight: 600;
+font-size: 20px;
+padding: 10px auto;
+color: #333;
+margin-right: 306;
+margin-bottom: 30px;
+font-weight: 300;
+text-decoration: none;
+letter-spacing: 2px;
+color:white;
+  padding: 5px auto;
+  border-radius:30px ;
+  margin-right:  70px;
+  size: 8px;
+  cursor:pointer;
+height: 30px auto;
+word-spacing: 5em;
+
+}
+
+.name{
+  position: relative;
+  right: 330px;
+  border-bottom: 2px solid #fff;
+letter-spacing: 10px;
+margin-left: 2px;
+padding-bottom: 1.8%;
+}
+
+
+
+.conatiner2{
+  width: 40%;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+
+}
+
+
+
+.contactItem {
+  display: flex;
+  flex-direction: row;
+  /* background-color: green; */
+  align-items: center;
+  justify-content: start;
+  margin-left: 20px;
+  gap: 20px;
+}
+
+.contactText {
+  /* background-color: yellow; */
+  text-align: start;
+}
+
+.primaryText {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.seconText {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+
+}
+
+.seconText2{
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+.primaryText2 {
+  margin: 0;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+.mainText{
+  margin-right: 45px ;
+}
+
+/* .icon {
+  display: flex;
+  flex-direction: row;
+} */
+
+.contactDetails{ 
+  margin-top: -400px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+.add{
+  margin-top:71px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* upar and niche ka css */
+
+
+
+.backgroundFix{
+  /* margin: 0px 75px; */
+  font-family: 'Poppins'; 
+background-attachment: fixed;
+  background-color:#0f0f0f;
+  margin: 0px 75px;
+
+}
+a{color:white}
+
+.loginContainer {
+  display: flex;
+  background-attachment: fixed;
+
+  justify-content: space-between;
+  background-image: url("gamingbackground.gif");
+  letter-spacing: 1px;
+  padding: 1% 1%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.loginBox{
+
+  font-size: 16px;
+
+  margin-right: 30px;}
+
+.logoImg { 
+  width: 30%;
+  background-color: none;
+  background-attachment:fixed;
+  align-items:top;
+  color: white;
+  margin-right: 291px;
+ 
+}  
+.login {
+  text-align:right;
+  font-weight: 200;
+  font-size: 14px;
+  color: white;
+  word-spacing: .75em;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.logina:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.sm{
+  color: antiquewhite;
+  text-align: center;
+
+}
+.socialMedia{
+  color: WHITE;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;  
+  justify-content: center;
+  gap: 40px;
+  font-size: 25px;
+  margin-top:20px ;
+  text-indent: 50px;
+  size: 10px;
+  color: white;
+  margin-right: 95px;
+
+}
+
+.brandImg {
+  margin-right: 10px;
+  color: white;
+
+}
+
+.footerContainer{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.footerImg{
+  width: 30%;
+  background-attachment:fixed;
+  color: white;
+  text-align: center;
+  margin-right:-285px;
+}
+
+.footerWord{
+  text-align:center;
+  font-weight: 200;
+  font-size: small;
+  color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.copyright{
+  text-align:center;
+  font-weight: 200;
+  font-size: small;
+  color: white;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.copyright1{
+  text-align: center;
+ font-size: medium;
+ color: white;
+
+}
+
+.copyIcon{
+  text-align:center;
+  font-weight: 200;
+  font-size: small;
+  color: white;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+    color: white;
+
+}
+
+.loginBox  a {
+  position: relative;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 30px;
+}
+.loginBox a::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: -6px;
+width: 100%;
+height: 2px;
+background-color: white;
+border: 5px;
+/* transform: translateY(10px); */
+opacity: 0;
+transition: .5s;
+}
+
+
+.loginBox a:hover::after {
+  transform: translateY (10px);
+opacity: 1;
+
+}
+
+
+
+
+
+
+
+
